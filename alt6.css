@@ -1,0 +1,31 @@
+p {
+  font-family: 'Times New Roman', serif !important;
+  color: #262626;
+  font-size: 1.4rem !important;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif !important;
+}
+
+h2 {
+  font-family: 'Crimson Pro', serif !important;
+}
+
+body {
+  background: url('marble.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: rgba(167, 199, 231, 0.9);
+  z-index: -1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none !important;
+}

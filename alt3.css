@@ -1,0 +1,34 @@
+:root {
+  --bs-body-color: #d9dee8;
+  --bs-primary-rgb: 217, 222, 232;
+  --bs-secondary-rgb: 217, 222, 232;
+  --bs-heading-color: #f2f4f8;
+  --bs-secondary-color: #d9dee8;
+  --bs-link-color-rgb: 167, 199, 255;
+  --bs-link-hover-color-rgb: 110, 95, 165;
+}
+
+body {
+    background-color: #1d3f7b;
+}
+
+p {
+  font-family: 'Roboto', sans-serif !important;
+  /* font-size: 1.4rem !important; */
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none !important;
+}
+
+.section-heading {
+  display: inline-block;
+  position: relative;
+  padding: 1rem 0;
+  border-top: 2px solid #f2f4f8;
+  border-bottom: 2px solid #f2f4f8;
+}
